@@ -16,5 +16,5 @@ app.get('*', function (req, res) {
 })
 
 app.listen(80, function () {
-  console.log('连接成功')
+  console.log('server listen at port 80')
 })
